@@ -267,14 +267,15 @@
 								<string>0867D691FE84028FC02AAC07</string>
 								<string>5391048D124F6B3400E34DFA</string>
 								<string>08FB77AEFE84172EC02AAC07</string>
+								<string>089C1665FE841158C02AAC07</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>53910527124F713F00E34DFA</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>11</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -307,12 +308,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>533067B3124E76E1000EC213</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WSEnumerable.demo.m</string>
+								<string>README</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>533067B4124E76E1000EC213</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WSEnumerable.demo.m</string>
+										<string>README</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>53910528124F713F00E34DFA</string>
+										<string>53910536124F71BC00E34DFA</string>
 										<key>history</key>
 										<array>
 											<string>533FB3D0124F27C700921B60</string>
@@ -333,15 +336,15 @@
 											<string>533FB57D124F4CED00921B60</string>
 											<string>53548CC4124F6AA60089B756</string>
 											<string>53548CC5124F6AA60089B756</string>
-											<string>539104B4124F6C7800E34DFA</string>
-											<string>539104B7124F6C7800E34DFA</string>
 											<string>539104B8124F6C7800E34DFA</string>
 											<string>539104E0124F6D4900E34DFA</string>
 											<string>539104FF124F6EB800E34DFA</string>
 											<string>53910501124F6EB800E34DFA</string>
 											<string>53910512124F70A200E34DFA</string>
 											<string>53910513124F70A200E34DFA</string>
-											<string>53910526124F713E00E34DFA</string>
+											<string>53910533124F71BC00E34DFA</string>
+											<string>53910534124F71BC00E34DFA</string>
+											<string>53910535124F71BC00E34DFA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

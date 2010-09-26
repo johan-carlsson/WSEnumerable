@@ -80,7 +80,6 @@
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */,
 			);
 			name = WSEnumerable;
 			sourceTree = "<group>";
@@ -97,6 +96,7 @@
 		089C1665FE841158C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */,
 				8DC2EF5A0486A6940098B216 /* Info.plist */,
 				53548CC3124F6A610089B756 /* README */,
 			);

@@ -1,0 +1,1 @@
+WSEnumerable is a mini-framework that adds Ruby-like enumeration capabilities to Foundation's NSArray class. It is in early development stages, hence decent documentation is still forthcoming.

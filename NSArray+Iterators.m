@@ -6,9 +6,21 @@
 //  Copyright 2010 Walking Smarts. All rights reserved.
 //
 
+#import <objc/runtime.h>
 #import "NSArray+Iterators.h"
 
 @implementation NSArray (Iterators)
+
++ (void)load
+{
+  void (^alias_method)(SEL, SEL) = ^(SEL srcSelector, SEL dstSelector){
+    Method srcMethod = class_getInstanceMethod(self, srcSelector);
+    IMP srcMethodImplementation = method_getImplementation(srcMethod);
+    class_addMethod(self, dstSelector, srcMethodImplementation, method_getTypeEncoding(srcMethod));
+  };
+  
+  alias_method(@selector(map:), @selector(collect:));
+}
 
 - (NSArray *)each:(void (^)(id obj))block
 {

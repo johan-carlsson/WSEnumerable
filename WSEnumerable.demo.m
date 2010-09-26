@@ -46,6 +46,19 @@ int main(int argc, char *argv[])
     NSLog(@"returned value: %@", mappedArray);
   }
   
+  // [array collect:id^(id obj)block];
+  {
+    NSLog(@"[array collect:id^(id obj)block];");
+    id (^collectBlock)(id) = (id)^(NSString *name) {
+      NSString *newName = [name stringByAppendingFormat:@"!"];
+      NSLog(@"%@", newName);
+      return newName;
+    };
+
+    NSArray *collectedArray = [array performSelector:@selector(collect:) withObject:collectBlock];
+    NSLog(@"returned value: %@", collectedArray);
+  }
+  
   [pool drain];
   return 0;
 }

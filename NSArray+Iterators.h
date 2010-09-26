@@ -11,4 +11,6 @@
 - (NSArray *)each:(void (^)(id obj))block;
 - (NSArray *)eachWithIndex:(void (^)(id obj, const UInt32 index))block;
 
+- (NSArray *)map:(id (^)(id obj))block;
+
 @end

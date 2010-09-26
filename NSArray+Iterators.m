@@ -29,4 +29,14 @@
   return self;
 }
 
+- (NSArray *)map:(id (^)(id obj))block
+{
+  NSMutableArray *mappedArray = [[NSMutableArray alloc] initWithCapacity:[self count]];
+  for (id item in self) {
+    [mappedArray addObject:block(item)];
+  };
+  
+  return [NSArray arrayWithArray:mappedArray];
+}
+
 @end

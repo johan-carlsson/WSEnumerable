@@ -10,13 +10,22 @@
 
 @implementation NSArray (Iterators)
 
-+ (void)load
-{
-  NSLog(@"loaded %@", self);
-}
-
 - (NSArray *)each:(void (^)(id obj))block
 {
+  for(id item in self) {
+    block(item);
+  }
+  return self;
+}
+
+- (NSArray *)eachWithIndex:(void (^)(id obj, const UInt32 index))block
+{
+  UInt32 index = 0;
+  for (id item in self) {
+    block(item, index);
+    index++;
+  }
+  
   return self;
 }
 

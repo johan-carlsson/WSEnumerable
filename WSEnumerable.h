@@ -7,5 +7,5 @@
  *
  */
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/NSArray.h>
 #import "NSArray+Iterators.h"

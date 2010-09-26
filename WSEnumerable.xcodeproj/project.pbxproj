@@ -11,7 +11,21 @@
 		533067D0124E7832000EC213 /* NSArray+Iterators.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067CD124E781C000EC213 /* NSArray+Iterators.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		533067D1124E7835000EC213 /* NSArray+Iterators.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067CE124E781C000EC213 /* NSArray+Iterators.m */; };
 		533FB3D6124F27DA00921B60 /* WSEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = 533FB38F124F246A00921B60 /* WSEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53910497124F6B8A00E34DFA /* WSEnumerable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */; };
+		5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
+		539104AF124F6C6300E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
+		539104D5124F6D2300E34DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5330679A124E7693000EC213 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		539104A1124F6BF500E34DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
+			remoteInfo = WSEnumerable;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		32DBCF5E0370ADEE00C91783 /* WSEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEnumerable_Prefix.pch; sourceTree = "<group>"; };
@@ -20,11 +34,23 @@
 		533067CE124E781C000EC213 /* NSArray+Iterators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Iterators.m"; sourceTree = "<group>"; };
 		533FB38F124F246A00921B60 /* WSEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEnumerable.h; sourceTree = "<group>"; };
 		53548CC3124F6A610089B756 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSEnumerable.demo-Info.plist"; sourceTree = "<group>"; };
+		53910493124F6B7500E34DFA /* WSEnumerable.demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WSEnumerable.demo; sourceTree = BUILT_PRODUCTS_DIR; };
+		5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEnumerable.demo.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSEnumerable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		53910491124F6B7500E34DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53910497124F6B8A00E34DFA /* WSEnumerable.framework in Frameworks */,
+				539104D5124F6D2300E34DFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF560486A6940098B216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */,
+				53910493124F6B7500E34DFA /* WSEnumerable.demo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,11 +74,13 @@
 		0867D691FE84028FC02AAC07 /* WSEnumerable */ = {
 			isa = PBXGroup;
 			children = (
+				5391048D124F6B3400E34DFA /* Demo.app */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
+				5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */,
 			);
 			name = WSEnumerable;
 			sourceTree = "<group>";
@@ -107,6 +136,14 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		5391048D124F6B3400E34DFA /* Demo.app */ = {
+			isa = PBXGroup;
+			children = (
+				5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */,
+			);
+			name = Demo.app;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -122,6 +159,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		53910492124F6B7500E34DFA /* WSEnumerable.demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5391049E124F6B9A00E34DFA /* Build configuration list for PBXNativeTarget "WSEnumerable.demo" */;
+			buildPhases = (
+				53910490124F6B7500E34DFA /* Sources */,
+				53910491124F6B7500E34DFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539104A2124F6BF500E34DFA /* PBXTargetDependency */,
+			);
+			name = WSEnumerable.demo;
+			productName = WSEnumerable.demo;
+			productReference = 53910493124F6B7500E34DFA /* WSEnumerable.demo */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DC2EF4F0486A6940098B216 /* WSEnumerable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "WSEnumerable" */;
@@ -154,20 +208,38 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* WSEnumerable */,
+				53910492124F6B7500E34DFA /* WSEnumerable.demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		53910490124F6B7500E34DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539104AF124F6C6300E34DFA /* WSEnumerable.demo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF540486A6940098B216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				533067D1124E7835000EC213 /* NSArray+Iterators.m in Sources */,
+				5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		539104A2124F6BF500E34DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
+			targetProxy = 539104A1124F6BF500E34DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
@@ -235,6 +307,52 @@
 			};
 			name = Release;
 		};
+		53910495124F6B7500E34DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WSEnumerable.demo;
+			};
+			name = Debug;
+		};
+		53910496124F6B7500E34DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WSEnumerable.demo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -252,6 +370,15 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5391049E124F6B9A00E34DFA /* Build configuration list for PBXNativeTarget "WSEnumerable.demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53910495124F6B7500E34DFA /* Debug */,
+				53910496124F6B7500E34DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

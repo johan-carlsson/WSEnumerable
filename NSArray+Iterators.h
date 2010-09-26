@@ -9,5 +9,6 @@
 @interface NSArray (Iterators)
 
 - (NSArray *)each:(void (^)(id obj))block;
+- (NSArray *)eachWithIndex:(void (^)(id obj, const UInt32 index))block;
 
 @end

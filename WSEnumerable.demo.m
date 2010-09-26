@@ -59,6 +59,24 @@ int main(int argc, char *argv[])
     NSLog(@"returned value: %@", collectedArray);
   }
   
+  // [array detect:id^(id obj)block];
+  {
+    NSLog(@"[array detect:id^(id obj)block];");
+    NSString *lastName = [array detect:(id)^(NSString *name) {
+      return ([array count] - 1) == [array indexOfObject:name];
+    }];
+    NSLog(@"lastName: %@", lastName);
+  }
+  
+  // [array select:id^(id obj)block];
+  {
+    NSLog(@"[array select:id^(id obj)block];");
+    NSArray *oddNames = [array select:(id)^(NSString *name) {
+      return ([array indexOfObject:name] % 2 == 0);
+    }];
+    NSLog(@"oddNames: %@", oddNames);
+  }
+  
   [pool drain];
   return 0;
 }

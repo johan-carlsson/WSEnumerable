@@ -51,4 +51,23 @@
   return [NSArray arrayWithArray:mappedArray];
 }
 
+- (id)detect:(id (^)(id obj))block
+{
+  for (id item in self) {
+    if (block(item))
+      return item;
+  };
+  return nil;
+}
+
+- (NSArray *)select:(id (^)(id obj))block
+{
+  NSMutableArray *selectedArray = [[NSMutableArray alloc] init];
+  for (id item in self) {
+    if (block(item))
+      [selectedArray addObject:item];
+  }
+  return [NSArray arrayWithArray:selectedArray];
+}
+
 @end

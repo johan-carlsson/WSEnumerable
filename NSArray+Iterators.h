@@ -13,4 +13,7 @@
 
 - (NSArray *)map:(id (^)(id obj))block;
 
+- (id)detect:(id (^)(id obj))block;
+- (NSArray *)select:(id (^)(id obj))block;
+
 @end

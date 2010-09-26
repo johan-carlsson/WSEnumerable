@@ -1,1 +1,6 @@
 WSEnumerable is a mini-framework that adds Ruby-like enumeration capabilities to Foundation's NSArray class. It is in early development stages, hence decent documentation is still forthcoming.
+
+Available NSArray iteration methods:
+- (NSArray*)each:(void^(id obj))block;
+- (NSArray*)eachWithIndex:(void^(id obj, UInt32 index))block;
+- (NSArray*)map:(id^(id obj))block; // also aliased as collect

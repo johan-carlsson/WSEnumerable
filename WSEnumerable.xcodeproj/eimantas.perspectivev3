@@ -274,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>11</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>533067B3124E76E1000EC213</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WSEnumerable.demo.m</string>
+								<string>README</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>533067B4124E76E1000EC213</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WSEnumerable.demo.m</string>
+										<string>README</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>53910561124F743400E34DFA</string>
+										<string>53910565124F74DB00E34DFA</string>
 										<key>history</key>
 										<array>
 											<string>533FB3D0124F27C700921B60</string>
@@ -335,16 +335,16 @@
 											<string>533FB55A124F394E00921B60</string>
 											<string>533FB57D124F4CED00921B60</string>
 											<string>53548CC4124F6AA60089B756</string>
-											<string>53548CC5124F6AA60089B756</string>
 											<string>539104B8124F6C7800E34DFA</string>
 											<string>539104FF124F6EB800E34DFA</string>
 											<string>53910501124F6EB800E34DFA</string>
 											<string>53910534124F71BC00E34DFA</string>
-											<string>53910537124F720E00E34DFA</string>
 											<string>5391055A124F742800E34DFA</string>
 											<string>5391055B124F742800E34DFA</string>
 											<string>5391055C124F742800E34DFA</string>
-											<string>53910560124F742C00E34DFA</string>
+											<string>53910562124F74DB00E34DFA</string>
+											<string>53910563124F74DB00E34DFA</string>
+											<string>53910564124F74DB00E34DFA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

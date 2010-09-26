@@ -186,6 +186,10 @@
 			5391055F124F742C00E34DFA /* PBXTextBookmark */ = 5391055F124F742C00E34DFA /* PBXTextBookmark */;
 			53910560124F742C00E34DFA /* PBXTextBookmark */ = 53910560124F742C00E34DFA /* PBXTextBookmark */;
 			53910561124F743400E34DFA /* PBXTextBookmark */ = 53910561124F743400E34DFA /* PBXTextBookmark */;
+			53910562124F74DB00E34DFA /* PBXTextBookmark */ = 53910562124F74DB00E34DFA /* PBXTextBookmark */;
+			53910563124F74DB00E34DFA /* PlistBookmark */ = 53910563124F74DB00E34DFA /* PlistBookmark */;
+			53910564124F74DB00E34DFA /* PBXTextBookmark */ = 53910564124F74DB00E34DFA /* PBXTextBookmark */;
+			53910565124F74DB00E34DFA /* PBXTextBookmark */ = 53910565124F74DB00E34DFA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 53306797124E7680000EC213 /* Source Control */;
 		userBuildSettings = {
@@ -390,8 +394,8 @@
 	53548CC3124F6A610089B756 /* README */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1356, 661}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 192}";
+			sepNavSelRange = "{394, 0}";
+			sepNavVisRange = "{0, 394}";
 		};
 	};
 	53548CC4124F6AA60089B756 /* PlistBookmark */ = {
@@ -421,7 +425,7 @@
 		fRef = 53548CC3124F6A610089B756 /* README */;
 		name = "README: 1";
 		rLen = 0;
-		rLoc = 192;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -431,7 +435,7 @@
 		fRef = 53548CC3124F6A610089B756 /* README */;
 		name = "README: 1";
 		rLen = 0;
-		rLoc = 192;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -485,7 +489,7 @@
 		fRef = 53548CC3124F6A610089B756 /* README */;
 		name = "README: 1";
 		rLen = 0;
-		rLoc = 192;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1021,7 +1025,7 @@
 		fRef = 53548CC3124F6A610089B756 /* README */;
 		name = "README: 1";
 		rLen = 0;
-		rLoc = 192;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1242,6 +1246,47 @@
 		rLoc = 1764;
 		rType = 0;
 		vrLen = 1794;
+		vrLoc = 0;
+	};
+	53910562124F74DB00E34DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */;
+		name = "WSEnumerable.demo.m: 61";
+		rLen = 0;
+		rLoc = 1764;
+		rType = 0;
+		vrLen = 1794;
+		vrLoc = 0;
+	};
+	53910563124F74DB00E34DFA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/eimantas/MacDev/WSEnumerable/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	53910564124F74DB00E34DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53548CC3124F6A610089B756 /* README */;
+		name = "README: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 192;
+		vrLoc = 0;
+	};
+	53910565124F74DB00E34DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53548CC3124F6A610089B756 /* README */;
+		name = "README: 6";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 394;
 		vrLoc = 0;
 	};
 	8DC2EF4F0486A6940098B216 /* WSEnumerable */ = {

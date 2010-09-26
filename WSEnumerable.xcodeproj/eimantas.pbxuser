@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
+		addToTargets = (
+		);
+		codeSenseManager = 53306798124E7680000EC213 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					732,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					45.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					10,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					692,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 307193714;
+			PBXWorkspaceStateSaveDate = 307193714;
+		};
+		perUserProjectItems = {
+			533FB3D0124F27C700921B60 = 533FB3D0124F27C700921B60 /* PBXTextBookmark */;
+			533FB3F2124F29EF00921B60 = 533FB3F2124F29EF00921B60 /* PBXTextBookmark */;
+			533FB3F4124F29EF00921B60 = 533FB3F4124F29EF00921B60 /* PBXTextBookmark */;
+			533FB458124F2DB100921B60 = 533FB458124F2DB100921B60 /* PlistBookmark */;
+			533FB45B124F2DB100921B60 = 533FB45B124F2DB100921B60 /* PlistBookmark */;
+			533FB45C124F2DB100921B60 = 533FB45C124F2DB100921B60 /* PlistBookmark */;
+			533FB555124F394E00921B60 = 533FB555124F394E00921B60 /* PBXTextBookmark */;
+			533FB556124F394E00921B60 = 533FB556124F394E00921B60 /* PBXTextBookmark */;
+			533FB55A124F394E00921B60 = 533FB55A124F394E00921B60 /* PBXTextBookmark */;
+			533FB57D124F4CED00921B60 = 533FB57D124F4CED00921B60 /* PBXTextBookmark */;
+			533FB5A6124F51D100921B60 = 533FB5A6124F51D100921B60 /* PBXTextBookmark */;
+			533FB5A8124F51D100921B60 = 533FB5A8124F51D100921B60 /* PBXTextBookmark */;
+			533FB5A9124F51D100921B60 = 533FB5A9124F51D100921B60 /* PBXTextBookmark */;
+			533FB5AA124F51D100921B60 = 533FB5AA124F51D100921B60 /* PBXTextBookmark */;
+			533FB5AB124F51D100921B60 = 533FB5AB124F51D100921B60 /* PlistBookmark */;
+			533FB5B1124F5CE100921B60 = 533FB5B1124F5CE100921B60 /* PlistBookmark */;
+			53548CBA124F67750089B756 /* PlistBookmark */ = 53548CBA124F67750089B756 /* PlistBookmark */;
+		};
+		sourceControlManager = 53306797124E7680000EC213 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1667FE841158C02AAC07 /* English */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.plist.strings;
+		name = English;
+		path = /Users/eimantas/MacDev/WSEnumerable/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {910, 341}}";
+			sepNavSelRange = "{45, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* WSEnumerable_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 453}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 164}";
+		};
+	};
+	53306797124E7680000EC213 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	53306798124E7680000EC213 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	533067A6124E76A0000EC213 /* Tests-Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "Tests-Info.plist";
+		path = "/Users/eimantas/MacDev/WSEnumerable/Tests-Info.plist";
+		sourceTree = "<absolute>";
+	};
+	533067CD124E781C000EC213 /* NSArray+Iterators.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {910, 661}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	533067CE124E781C000EC213 /* NSArray+Iterators.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {910, 661}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRange = "{0, 335}";
+			sepNavWindowFrame = "{{15, 4}, {1191, 774}}";
+		};
+	};
+	533FB38F124F246A00921B60 /* WSEnumerable.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {910, 350}}";
+			sepNavSelRange = "{193, 9}";
+			sepNavVisRange = "{0, 205}";
+		};
+	};
+	533FB3D0124F27C700921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB3D1124F27C700921B60 /* SenTestingKit.h */;
+		name = "SenTestingKit.h: 26";
+		rLen = 0;
+		rLoc = 1505;
+		rType = 0;
+		vrLen = 2213;
+		vrLoc = 0;
+	};
+	533FB3D1124F27C700921B60 /* SenTestingKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SenTestingKit.h;
+		path = /Developer/Library/Frameworks/SenTestingKit.framework/Versions/A/Headers/SenTestingKit.h;
+		sourceTree = "<absolute>";
+	};
+	533FB3F2124F29EF00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C1667FE841158C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	533FB3F4124F29EF00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCF5E0370ADEE00C91783 /* WSEnumerable_Prefix.pch */;
+		name = "WSEnumerable_Prefix.pch: 6";
+		rLen = 0;
+		rLoc = 155;
+		rType = 0;
+		vrLen = 164;
+		vrLoc = 0;
+	};
+	533FB424124F2B3E00921B60 /* WSEnumerable.tests-Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = "WSEnumerable.tests-Info.plist";
+		path = "/Users/eimantas/MacDev/WSEnumerable/WSEnumerable.tests-Info.plist";
+		sourceTree = "<absolute>";
+	};
+	533FB430124F2BB400921B60 /* EachTests.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = EachTests.h;
+		path = /Users/eimantas/MacDev/WSEnumerable/EachTests.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 661}}";
+			sepNavSelRange = "{209, 0}";
+			sepNavVisRange = "{0, 321}";
+		};
+	};
+	533FB431124F2BB400921B60 /* EachTests.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = EachTests.m;
+		path = /Users/eimantas/MacDev/WSEnumerable/EachTests.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 661}}";
+			sepNavSelRange = "{312, 0}";
+			sepNavVisRange = "{0, 623}";
+			sepNavWindowFrame = "{{15, 4}, {1191, 774}}";
+		};
+	};
+	533FB458124F2DB100921B60 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8DC2EF5A0486A6940098B216 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/eimantas/MacDev/WSEnumerable/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	533FB45B124F2DB100921B60 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 533067A6124E76A0000EC213 /* Tests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/eimantas/MacDev/WSEnumerable/Tests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	533FB45C124F2DB100921B60 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 533FB424124F2B3E00921B60 /* WSEnumerable.tests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/eimantas/MacDev/WSEnumerable/WSEnumerable.tests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	533FB555124F394E00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB431124F2BB400921B60 /* EachTests.m */;
+		name = "EachTests.m: 17";
+		rLen = 0;
+		rLoc = 312;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	533FB556124F394E00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB430124F2BB400921B60 /* EachTests.h */;
+		name = "EachTests.h: 10";
+		rLen = 0;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 0;
+	};
+	533FB55A124F394E00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB55B124F394E00921B60 /* WSEnumerable.h */;
+		name = "WSEnumerable.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	533FB55B124F394E00921B60 /* WSEnumerable.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WSEnumerable.h;
+		path = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.framework/Headers/WSEnumerable.h;
+		sourceTree = "<absolute>";
+	};
+	533FB561124F3BD600921B60 /* NSArray+Iterators.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "NSArray+Iterators.h";
+		path = "/Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.framework/Headers/NSArray+Iterators.h";
+		sourceTree = "<absolute>";
+	};
+	533FB57D124F4CED00921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB561124F3BD600921B60 /* NSArray+Iterators.h */;
+		name = "NSArray+Iterators.h: 16";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	533FB5A6124F51D100921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB5A7124F51D100921B60 /* BuildLog_2010-09-26_12-41-29.txt */;
+		name = "BuildLog_2010-09-26_12-41-29.txt: 292";
+		rLen = 0;
+		rLoc = 16575;
+		rType = 0;
+		vrLen = 2691;
+		vrLoc = 15580;
+	};
+	533FB5A7124F51D100921B60 /* BuildLog_2010-09-26_12-41-29.txt */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		path = "BuildLog_2010-09-26_12-41-29.txt";
+		sourceTree = "<group>";
+	};
+	533FB5A8124F51D100921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533FB38F124F246A00921B60 /* WSEnumerable.h */;
+		name = "WSEnumerable.h: 11";
+		rLen = 9;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	533FB5A9124F51D100921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533067CE124E781C000EC213 /* NSArray+Iterators.m */;
+		name = "NSArray+Iterators.m: 20";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	533FB5AA124F51D100921B60 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 533067CD124E781C000EC213 /* NSArray+Iterators.h */;
+		name = "NSArray+Iterators.h: 13";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	533FB5AB124F51D100921B60 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 533FB5AC124F51D100921B60 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.tests.octest/Contents/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	533FB5AC124F51D100921B60 /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Info.plist;
+		path = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.tests.octest/Contents/Info.plist;
+		sourceTree = "<absolute>";
+	};
+	533FB5B1124F5CE100921B60 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 533FB5B2124F5CE100921B60 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.tests.octest/Contents/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	533FB5B2124F5CE100921B60 /* Info.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Info.plist;
+		path = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.tests.octest/Contents/Info.plist;
+		sourceTree = "<absolute>";
+	};
+	53548CBA124F67750089B756 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 533FB5B2124F5CE100921B60 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/eimantas/MacDev/WSEnumerable/build/Debug/WSEnumerable.tests.octest/Contents/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8DC2EF4F0486A6940098B216 /* WSEnumerable */ = {
+		activeExec = 0;
+	};
+}

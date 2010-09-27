@@ -15,10 +15,23 @@
 		5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
 		539104AF124F6C6300E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
 		539104D5124F6D2300E34DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5330679A124E7693000EC213 /* Foundation.framework */; };
+		539105A8124FC07800E34DFA /* EachTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 539105A6124FC07800E34DFA /* EachTests.h */; settings = {ATTRIBUTES = (); }; };
+		539105A9124FC07800E34DFA /* EachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 539105A7124FC07800E34DFA /* EachTests.m */; };
+		539105AA124FC08600E34DFA /* NSArray+Iterators.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067CE124E781C000EC213 /* NSArray+Iterators.m */; };
+		539105AB124FC08E00E34DFA /* EachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 539105A7124FC07800E34DFA /* EachTests.m */; };
+		539105BE124FC1A200E34DFA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539105BD124FC1A200E34DFA /* SenTestingKit.framework */; };
+		539105D9124FC20900E34DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5330679A124E7693000EC213 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		539104A1124F6BF500E34DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
+			remoteInfo = WSEnumerable;
+		};
+		5391059B124FC04C00E34DFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
@@ -37,6 +50,10 @@
 		5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSEnumerable.demo-Info.plist"; sourceTree = "<group>"; };
 		53910493124F6B7500E34DFA /* WSEnumerable.demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WSEnumerable.demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEnumerable.demo.m; sourceTree = "<group>"; };
+		53910598124FC04700E34DFA /* WSEnumerable.tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSEnumerable.tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		539105A6124FC07800E34DFA /* EachTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EachTests.h; sourceTree = "<group>"; };
+		539105A7124FC07800E34DFA /* EachTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EachTests.m; sourceTree = "<group>"; };
+		539105BD124FC1A200E34DFA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = SDKROOT; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSEnumerable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,6 +65,15 @@
 			files = (
 				53910497124F6B8A00E34DFA /* WSEnumerable.framework in Frameworks */,
 				539104D5124F6D2300E34DFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53910595124FC04700E34DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539105BE124FC1A200E34DFA /* SenTestingKit.framework in Frameworks */,
+				539105D9124FC20900E34DFA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +93,7 @@
 			children = (
 				8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */,
 				53910493124F6B7500E34DFA /* WSEnumerable.demo */,
+				53910598124FC04700E34DFA /* WSEnumerable.tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +101,7 @@
 		0867D691FE84028FC02AAC07 /* WSEnumerable */ = {
 			isa = PBXGroup;
 			children = (
+				539105A4124FC06000E34DFA /* Tests */,
 				5391048D124F6B3400E34DFA /* Demo.app */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
@@ -124,6 +152,7 @@
 		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				539105BD124FC1A200E34DFA /* SenTestingKit.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -144,6 +173,15 @@
 			name = Demo.app;
 			sourceTree = "<group>";
 		};
+		539105A4124FC06000E34DFA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				539105A6124FC07800E34DFA /* EachTests.h */,
+				539105A7124FC07800E34DFA /* EachTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +191,7 @@
 			files = (
 				533FB3D6124F27DA00921B60 /* WSEnumerable.h in Headers */,
 				533067D0124E7832000EC213 /* NSArray+Iterators.h in Headers */,
+				539105A8124FC07800E34DFA /* EachTests.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +214,24 @@
 			productName = WSEnumerable.demo;
 			productReference = 53910493124F6B7500E34DFA /* WSEnumerable.demo */;
 			productType = "com.apple.product-type.tool";
+		};
+		53910597124FC04700E34DFA /* WSEnumerable.tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539105A5124FC06000E34DFA /* Build configuration list for PBXNativeTarget "WSEnumerable.tests" */;
+			buildPhases = (
+				53910594124FC04700E34DFA /* Sources */,
+				53910595124FC04700E34DFA /* Frameworks */,
+				53910596124FC04700E34DFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5391059C124FC04C00E34DFA /* PBXTargetDependency */,
+			);
+			name = WSEnumerable.tests;
+			productName = WSEnumerable.tests;
+			productReference = 53910598124FC04700E34DFA /* WSEnumerable.tests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 		8DC2EF4F0486A6940098B216 /* WSEnumerable */ = {
 			isa = PBXNativeTarget;
@@ -209,9 +266,26 @@
 			targets = (
 				8DC2EF4F0486A6940098B216 /* WSEnumerable */,
 				53910492124F6B7500E34DFA /* WSEnumerable.demo */,
+				53910597124FC04700E34DFA /* WSEnumerable.tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53910596124FC04700E34DFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53910490124F6B7500E34DFA /* Sources */ = {
@@ -222,12 +296,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53910594124FC04700E34DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539105AA124FC08600E34DFA /* NSArray+Iterators.m in Sources */,
+				539105AB124FC08E00E34DFA /* EachTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF540486A6940098B216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				533067D1124E7835000EC213 /* NSArray+Iterators.m in Sources */,
 				5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */,
+				539105A9124FC07800E34DFA /* EachTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +322,11 @@
 			isa = PBXTargetDependency;
 			target = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
 			targetProxy = 539104A1124F6BF500E34DFA /* PBXContainerItemProxy */;
+		};
+		5391059C124FC04C00E34DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* WSEnumerable */;
+			targetProxy = 5391059B124FC04C00E34DFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +442,62 @@
 			};
 			name = Release;
 		};
+		53910599124FC04800E34DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSEnumerable.framework/WSEnumerable";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "WSEnumerable.tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WSEnumerable.tests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5391059A124FC04800E34DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WSEnumerable.framework/WSEnumerable";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "WSEnumerable.tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WSEnumerable.tests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +524,15 @@
 			buildConfigurations = (
 				53910495124F6B7500E34DFA /* Debug */,
 				53910496124F6B7500E34DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539105A5124FC06000E34DFA /* Build configuration list for PBXNativeTarget "WSEnumerable.tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53910599124FC04800E34DFA /* Debug */,
+				5391059A124FC04800E34DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

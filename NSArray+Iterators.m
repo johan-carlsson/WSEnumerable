@@ -6,20 +6,14 @@
 //  Copyright 2010 Walking Smarts. All rights reserved.
 //
 
-#import <objc/runtime.h>
+#import "Runtime.h"
 #import "NSArray+Iterators.h"
 
 @implementation NSArray (Iterators)
 
 + (void)load
 {
-  void (^alias_method)(SEL, SEL) = ^(SEL srcSelector, SEL dstSelector){
-    Method srcMethod = class_getInstanceMethod(self, srcSelector);
-    IMP srcMethodImplementation = method_getImplementation(srcMethod);
-    class_addMethod(self, dstSelector, srcMethodImplementation, method_getTypeEncoding(srcMethod));
-  };
-  
-  alias_method(@selector(map:), @selector(collect:));
+  alias_method([self class], @selector(map:), @selector(collect:));
 }
 
 - (NSArray *)each:(void (^)(id obj))block
@@ -43,12 +37,12 @@
 
 - (NSArray *)map:(id (^)(id obj))block
 {
-  NSMutableArray *mappedArray = [[NSMutableArray alloc] initWithCapacity:[self count]];
+  NSMutableArray *mappedArray = [[[NSMutableArray alloc] initWithCapacity:[self count]] autorelease];
   for (id item in self) {
     [mappedArray addObject:block(item)];
   };
   
-  return [NSArray arrayWithArray:mappedArray];
+  return mappedArray;
 }
 
 - (id)detect:(id (^)(id obj))block
@@ -62,12 +56,12 @@
 
 - (NSArray *)select:(id (^)(id obj))block
 {
-  NSMutableArray *selectedArray = [[NSMutableArray alloc] init];
+  NSMutableArray *selectedArray = [[[NSMutableArray alloc] init] autorelease];
   for (id item in self) {
     if (block(item))
       [selectedArray addObject:item];
   }
-  return [NSArray arrayWithArray:selectedArray];
+  return selectedArray;
 }
 
 @end

@@ -7,5 +7,5 @@
  *
  */
 
-#import <Foundation/NSArray.h>
 #import "NSArray+Iterators.h"
+#import "NSDictionary+Iterators.h"

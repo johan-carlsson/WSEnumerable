@@ -6,6 +6,8 @@
 //  Copyright 2010 Walking Smarts. All rights reserved.
 //
 
+#import <Foundation/NSArray.h>
+
 @interface NSArray (Iterators)
 
 - (NSArray *)each:(void (^)(id obj))block;

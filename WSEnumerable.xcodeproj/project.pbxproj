@@ -11,10 +11,14 @@
 		533067D0124E7832000EC213 /* NSArray+Iterators.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067CD124E781C000EC213 /* NSArray+Iterators.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		533067D1124E7835000EC213 /* NSArray+Iterators.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067CE124E781C000EC213 /* NSArray+Iterators.m */; };
 		533FB3D6124F27DA00921B60 /* WSEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = 533FB38F124F246A00921B60 /* WSEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534094941254EA8700D7DD40 /* Runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 534094921254EA8700D7DD40 /* Runtime.h */; };
+		534094951254EA8700D7DD40 /* Runtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 534094931254EA8700D7DD40 /* Runtime.c */; };
 		53910497124F6B8A00E34DFA /* WSEnumerable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */; };
 		5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
 		539104AF124F6C6300E34DFA /* WSEnumerable.demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */; };
 		539104D5124F6D2300E34DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5330679A124E7693000EC213 /* Foundation.framework */; };
+		53ED06E71254E75F00195461 /* NSDictionary+Iterators.h in Headers */ = {isa = PBXBuildFile; fileRef = 53ED06E51254E75F00195461 /* NSDictionary+Iterators.h */; };
+		53ED06E81254E75F00195461 /* NSDictionary+Iterators.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ED06E61254E75F00195461 /* NSDictionary+Iterators.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +37,14 @@
 		533067CD124E781C000EC213 /* NSArray+Iterators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Iterators.h"; sourceTree = "<group>"; };
 		533067CE124E781C000EC213 /* NSArray+Iterators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Iterators.m"; sourceTree = "<group>"; };
 		533FB38F124F246A00921B60 /* WSEnumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSEnumerable.h; sourceTree = "<group>"; };
+		534094921254EA8700D7DD40 /* Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		534094931254EA8700D7DD40 /* Runtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Runtime.c; sourceTree = "<group>"; };
 		53548CC3124F6A610089B756 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		5391047E124F6AF100E34DFA /* WSEnumerable.demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WSEnumerable.demo-Info.plist"; sourceTree = "<group>"; };
 		53910493124F6B7500E34DFA /* WSEnumerable.demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WSEnumerable.demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		5391049B124F6B9A00E34DFA /* WSEnumerable.demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSEnumerable.demo.m; sourceTree = "<group>"; };
+		53ED06E51254E75F00195461 /* NSDictionary+Iterators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Iterators.h"; sourceTree = "<group>"; };
+		53ED06E61254E75F00195461 /* NSDictionary+Iterators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Iterators.m"; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* WSEnumerable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSEnumerable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +117,10 @@
 				533067CD124E781C000EC213 /* NSArray+Iterators.h */,
 				533067CE124E781C000EC213 /* NSArray+Iterators.m */,
 				533FB38F124F246A00921B60 /* WSEnumerable.h */,
+				53ED06E51254E75F00195461 /* NSDictionary+Iterators.h */,
+				53ED06E61254E75F00195461 /* NSDictionary+Iterators.m */,
+				534094921254EA8700D7DD40 /* Runtime.h */,
+				534094931254EA8700D7DD40 /* Runtime.c */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -153,6 +165,8 @@
 			files = (
 				533FB3D6124F27DA00921B60 /* WSEnumerable.h in Headers */,
 				533067D0124E7832000EC213 /* NSArray+Iterators.h in Headers */,
+				53ED06E71254E75F00195461 /* NSDictionary+Iterators.h in Headers */,
+				534094941254EA8700D7DD40 /* Runtime.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +249,8 @@
 			files = (
 				533067D1124E7835000EC213 /* NSArray+Iterators.m in Sources */,
 				5391049D124F6B9A00E34DFA /* WSEnumerable.demo.m in Sources */,
+				53ED06E81254E75F00195461 /* NSDictionary+Iterators.m in Sources */,
+				534094951254EA8700D7DD40 /* Runtime.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -77,6 +77,16 @@ int main(int argc, char *argv[])
     NSLog(@"oddNames: %@", oddNames);
   }
   
+  NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Red", @"Roses", @"Blue", @"Violets", nil];
+  // [dictionary each:^(id key, id value)block];
+  {
+    NSLog(@"[dictionary each:^(id key, id value)block]");
+    NSDictionary *eachDictionary = [dictionary each:(id)^(NSString *key, NSString *value){
+      NSLog(@"%@ are %@", key, value);
+    }];
+    NSLog(@"eachDicationary: %@", eachDictionary);
+  }
+  
   [pool drain];
   return 0;
 }

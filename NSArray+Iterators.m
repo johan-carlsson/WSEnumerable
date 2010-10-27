@@ -13,10 +13,10 @@
 
 + (void)load
 {
-  alias_method([self class], @selector(map:), @selector(collect:));
+  alias_method([self class], @selector(wsMap:), @selector(wsCollect:));
 }
 
-- (NSArray *)each:(void (^)(id obj))block
+- (NSArray *)wsEach:(void (^)(id obj))block
 {
   for(id item in self) {
     block(item);
@@ -24,7 +24,7 @@
   return self;
 }
 
-- (NSArray *)eachWithIndex:(void (^)(id obj, const UInt32 index))block
+- (NSArray *)wsEachWithIndex:(void (^)(id obj, const UInt32 index))block
 {
   UInt32 index = 0;
   for (id item in self) {
@@ -35,7 +35,7 @@
   return self;
 }
 
-- (NSArray *)map:(id (^)(id obj))block
+- (NSArray *)wsMap:(id (^)(id obj))block
 {
   NSMutableArray *mappedArray = [[[NSMutableArray alloc] initWithCapacity:[self count]] autorelease];
   for (id item in self) {
@@ -45,7 +45,7 @@
   return mappedArray;
 }
 
-- (id)detect:(id (^)(id obj))block
+- (id)wsDetect:(id (^)(id obj))block
 {
   for (id item in self) {
     if (block(item))
@@ -54,7 +54,7 @@
   return nil;
 }
 
-- (NSArray *)select:(id (^)(id obj))block
+- (NSArray *)wsSelect:(id (^)(id obj))block
 {
   NSMutableArray *selectedArray = [[[NSMutableArray alloc] init] autorelease];
   for (id item in self) {

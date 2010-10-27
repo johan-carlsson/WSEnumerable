@@ -11,6 +11,6 @@
 
 @interface NSDictionary (Iterators)
 
-- (NSDictionary *)each:(void (^)(id key, id value))block;
+- (NSDictionary *)wsEach:(void (^)(id key, id value))block;
 
 @end

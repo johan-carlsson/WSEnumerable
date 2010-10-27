@@ -267,13 +267,18 @@
 								<string>0867D691FE84028FC02AAC07</string>
 								<string>5391048D124F6B3400E34DFA</string>
 								<string>08FB77AEFE84172EC02AAC07</string>
+								<string>0867D69AFE84028FC02AAC07</string>
+								<string>1058C7B0FEA5585E11CA2CBB</string>
+								<string>034768DFFF38A50411DB9C8B</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>53B52DE41277DED00044FBCE</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>15</integer>
+									<integer>22</integer>
+									<integer>21</integer>
+									<integer>20</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -312,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>533067B3124E76E1000EC213</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WSEnumerable.demo.m</string>
+								<string>NSArray+Iterators.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -320,22 +325,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>533067B4124E76E1000EC213</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WSEnumerable.demo.m</string>
+										<string>NSArray+Iterators.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>534094CF1254ED6500D7DD40</string>
+										<string>53B52DED1277DED00044FBCE</string>
 										<key>history</key>
 										<array>
 											<string>534094B61254ED0800D7DD40</string>
-											<string>534094B71254ED0800D7DD40</string>
-											<string>534094B81254ED0800D7DD40</string>
-											<string>534094B91254ED0800D7DD40</string>
-											<string>534094BA1254ED0800D7DD40</string>
-											<string>534094BB1254ED0800D7DD40</string>
-											<string>534094BC1254ED0800D7DD40</string>
-											<string>534094BD1254ED0800D7DD40</string>
-											<string>534094CE1254ED5400D7DD40</string>
+											<string>53B52DE51277DED00044FBCE</string>
+											<string>53B52DE61277DED00044FBCE</string>
+											<string>53B52DE71277DED00044FBCE</string>
+											<string>53B52DE81277DED00044FBCE</string>
+											<string>53B52DE91277DED00044FBCE</string>
+											<string>53B52DEA1277DED00044FBCE</string>
+											<string>53B52DEB1277DED00044FBCE</string>
+											<string>53B52DEC1277DED00044FBCE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -430,7 +435,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {971, -27}}</string>
+										<string>{{0, 0}, {568, 405}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -458,11 +463,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>534094D01254ED6500D7DD40</string>
+				<string>53B52DEE1277DED00044FBCE</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>534094D11254ED6500D7DD40</string>
+				<string>53B52DEF1277DED00044FBCE</string>
 				<string>533067B3124E76E1000EC213</string>
-				<string>534094D21254ED6500D7DD40</string>
+				<string>53B52DF01277DED00044FBCE</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -652,8 +657,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>534094D81254ED6500D7DD40</string>
-		<string>534094D91254ED6500D7DD40</string>
 		<string>/Users/eimantas/MacDev/WSEnumerable/WSEnumerable.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

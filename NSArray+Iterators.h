@@ -10,12 +10,12 @@
 
 @interface NSArray (Iterators)
 
-- (NSArray *)each:(void (^)(id obj))block;
-- (NSArray *)eachWithIndex:(void (^)(id obj, const UInt32 index))block;
+- (NSArray *)wsEach:(void (^)(id obj))block;
+- (NSArray *)wsEachWithIndex:(void (^)(id obj, const UInt32 index))block;
 
-- (NSArray *)map:(id (^)(id obj))block;
+- (NSArray *)wsMap:(id (^)(id obj))block;
 
-- (id)detect:(id (^)(id obj))block;
-- (NSArray *)select:(id (^)(id obj))block;
+- (id)wsDetect:(id (^)(id obj))block;
+- (NSArray *)wsSelect:(id (^)(id obj))block;
 
 @end

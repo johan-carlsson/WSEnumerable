@@ -14,10 +14,10 @@
 
 + (void)load
 {
-  alias_method([self class], @selector(each:), @selector(eachPair:));
+  alias_method([self class], @selector(wsEach:), @selector(wsEachPair:));
 }
 
-- (NSDictionary *)each:(void (^)(id key, id value))block
+- (NSDictionary *)wsEach:(void (^)(id key, id value))block
 {
   for (id key in self) {
     block(key, [self valueForKey:key]);
